@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  width: 100%;
+
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header-nav-link {
+  font-weight: 600;
+  color: var(--text-light-color);
+
+  transition: color var(--hover-effect);
+
+  &:hover {
+    color: var(--grey-color);
+  }
+}
