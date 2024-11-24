@@ -5,6 +5,7 @@
   --text-color: #424242;
   --text-light-color: #e0e0e0;
   --dark-color: #212121;
+  --black-color: #111111;
   --grey-color: #9e9e9e;
   --light-color: #fff;
 
@@ -50,4 +51,16 @@ body {
     background-color: var(--dark-color);
     color: var(--text-light-color);
   }
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.section-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: var(--grey-color);
 }

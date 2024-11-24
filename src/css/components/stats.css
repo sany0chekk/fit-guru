@@ -1,0 +1,28 @@
+.stats {
+  background-color: var(--black-color);
+  padding: 48px 0;
+}
+
+.stats-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 230px;
+}
+
+.stats-item-title {
+  margin-bottom: 4px;
+
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--text-light-color);
+  text-align: center;
+}
+
+.stats-item-descr {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: var(--text-light-color);
+  text-align: center;
+}

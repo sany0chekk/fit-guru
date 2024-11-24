@@ -47,3 +47,17 @@
   align-items: center;
   gap: 24px;
 }
+
+.hero-social-link {
+  transition: opacity var(--hover-effect);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.hero-social-icon {
+  fill: var(--text-light-color);
+  width: 19px;
+  height: 19px;
+}
