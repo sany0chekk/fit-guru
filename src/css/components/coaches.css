@@ -1,0 +1,40 @@
+.coaches {
+  padding-top: 201px;
+}
+
+.coaches-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.coaches-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.coaches-gallery-image {
+  border-radius: 20px;
+}
+
+.coaches-content {
+  max-width: 602px;
+}
+
+.coaches-subtitle {
+  margin-bottom: 16px;
+}
+
+.coaches-title {
+  margin-bottom: 24px;
+}
+
+.coaches-descr {
+  margin-bottom: 48px;
+
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: var(--grey-color);
+}
